@@ -1,0 +1,28 @@
+.Xil
+
+# cache
+basys3_4bit_alu.cache
+
+# hw
+basys3_4bit_alu.hw
+
+# ip_user_files
+basys3_4bit_alu.ip_user_files
+
+# runs
+basys3_4bit_alu.runs
+!basys3_4bit_alu.runs/impl_1/runme.log
+!basys3_4bit_alu.runs/synth_1/runme.log
+
+# sim
+basys3_4bit_alu.sim
+!basys3_4bit_alu.sim/sim_1/behav/xsim/compile.log
+!basys3_4bit_alu.sim/sim_1/behav/xsim/elaborate.log
+!basys3_4bit_alu.sim/sim_1/behav/xsim/simulate.log
+
+# srcs
+basys3_4bit_alu.srcs/utils_1
+
+*.str
+*.jou
+*.log
