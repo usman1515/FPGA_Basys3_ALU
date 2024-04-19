@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "aaron-bond.better-comments",
+        "mhutchie.git-graph",
+        "oderwat.indent-rainbow",
+        "bierner.markdown-preview-github-styles",
+        "bierner.markdown-shiki",
+        "esbenp.prettier-vscode",
+        "kevinrose.vsc-python-indent",
+        "mshr-h.veriloghdl"
+    ]
+}
