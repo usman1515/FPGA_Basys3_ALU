@@ -1,30 +1,29 @@
 # Basys 3 ALU
 
 ## Introduction
-The repo is simply my first attempt of designing, testing, synthesizing and implementing a simple 4-bit 16 mode sequential Arithmetic and Logic Unit (ALU) on a [Basys3](https://digilent.com/reference/programmable-logic/basys-3/reference-manual) FPGA board.
+The repo is simply my first attempt of designing, testing, synthesizing and implementing a simple
+4-bit 16 mode sequential Arithmetic and Logic Unit (ALU) on a
+[Basys3](https://digilent.com/reference/programmable-logic/basys-3/reference-manual) FPGA board.
+
+The idea of the project was simply to learn how to setup a Vivado project, add RTL, TB and
+constraint files. Then you can open and run the project in either normal mode and batch mode.
 
 ## Directory Structure
+
+```bash
+├── basys3_alu/
+├── bin/
+│   ├── checkpoints/
+│   ├── logs/
+│   └── reports/
+├── constraints/
+├── rtl/
+├── scripts/
+├── tb/
+├── Makefile
+└── README.md
 ```
-.
-├── .vscode
-├── basys3_4bit_alu.cache
-├── basys3_4bit_alu.hw
-├── basys3_4bit_alu.ip_user_files
-├── basys3_4bit_alu.runs
-│   ├── impl_1
-│   └── synth_1
-├── basys3_4bit_alu.sim
-│   └── sim_1
-│       └── behav
-│           └── xsim
-├── basys3_4bit_alu.srcs
-│   ├── constrs_1
-│   ├── sim_1
-│   ├── sources_1
-│   └── utils_1
-├── basys3_4bit_alu.xpr
-└── README.txt
-```
+
 
 <!-- vcd file
 basys3_4bit_alu.sim/sim_1/behav/xsim/04_alu.vcd
